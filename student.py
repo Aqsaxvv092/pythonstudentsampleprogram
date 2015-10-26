@@ -48,7 +48,7 @@ def get_letter_grade(score):
     else:
         return "F"
 grade = get_letter_grade(get_average(lloyd))
-print 'The average grade is', grade
+print ('The average grade is', grade)
 
 def get_class_average(students):
     results=[]
@@ -57,4 +57,4 @@ def get_class_average(students):
         results.append(temp_avg)
     return average(results)
 classaverage = get_class_average(students)
-print 'The class average is', classaverage
+print ('The class average is', classaverage)
